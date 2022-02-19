@@ -21,6 +21,7 @@ header p{
     font-size: 25px;
 }
 
+
 main{
     box-sizing: border-box;
     position: relative;
@@ -34,16 +35,19 @@ main{
     font-weight: bold;
     margin-top: 150px;
     color: greenyellow;
+    float: left;
     display: inline-block;
     width: 600px;
     font-size: 50px;
+    text-align: center;
 }
 
 main section figure{
+    margin-left: 100px;
+    alignment: center;
     margin-right: 150px;
     margin-top: 30px;
     display: inline-block;
-    float: right;
     width: 300px;
 }
 
@@ -57,7 +61,7 @@ main section figure{
 }
 
 #Status{
-    margin-top: 140px;
+    margin-top: 40px;
 }
 
 #statusData{
