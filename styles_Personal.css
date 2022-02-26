@@ -21,6 +21,20 @@ header p{
     font-size: 25px;
 }
 
+#goToHome{
+    box-sizing: border-box;
+    padding-top: 30px;
+    float: left;
+    width: 100px;
+    height: 83.88px;
+    color: red;
+    background-color: blue;
+}
+
+#goToHome:hover{
+    background-color: white;
+    color: black;
+}
 
 main{
     box-sizing: border-box;
@@ -44,7 +58,7 @@ main{
 
 main section figure{
     margin-left: 150px;
-    alignment: center;
+    /*alignment: center;*/
     margin-right: 150px;
     margin-top: 30px;
     display: inline-block;
@@ -102,9 +116,9 @@ footer{
 
 #goToTop{
     position: relative;
-    top: 30px;
+    top: 20px;
     float: left;
-    width: 175px;
+    width: 100px;
 }
 
 #eMail{
@@ -113,9 +127,9 @@ footer{
 
 #gitHub{
     position: relative ;
-    top: 30px;
+    top: 20px;
 }
 
-
-
-
+.fa-2x {
+    vertical-align: middle;
+}
